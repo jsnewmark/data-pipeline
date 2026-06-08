@@ -28,7 +28,7 @@ copyright = "2026, CODEX Science Operations Center"
 author = "CODEX Science Operations Center"
 
 # The full version, including alpha/beta/rc tags
-release: str = get_version("codex_pipeline")
+release: str = get_version("data-pipeline")
 version: str = release
 _version = Version(release)
 if _version.is_devrelease:
