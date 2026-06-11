@@ -3,7 +3,7 @@ Introduction
 
 What is CODEX?
 --------------
-CODEX is a...
+Understanding solar wind sources and acceleration mechanisms is an overarching solar physics goal. Current models are highly under-constrained due to the limitations of the existing data, particularly in the ~3-10 Rs range. COronal Diagnostic EXperiment (CODEX) is designed to deliver the first global, comprehensive data sets that will impose crucial constraints and answer targeted essential questions, including: Are there signatures of hot plasma released into the solar wind from previously closed fields? What are the velocities and temperatures of the density structures that are observed so ubiquitously within streamers and coronal holes? To provide these crucial measurements, NASA’s Goddard Space Flight Center, in collaboration with the Korea Astronomy and Space Science Institute, and the Italian National Institute for Astrophysics have developed a next-generation coronagraph hosted on the International Space Station, launched November 4, 2024. This imaging solar coronagraph uses multiple narrow passband filters to obtain simultaneous measurements of electron density, temperature, and velocity of the nascent solar wind. CODEX provides comprehensive data sets that test theories of solar wind formation and provide crucial constraints on predictive solar wind models, taking multiple daily measurements in this critical solar wind formation region. See https://science.nasa.gov/mission/codex/ for more details.
 
 How do I get data?
 -----------------
