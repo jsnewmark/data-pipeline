@@ -24,6 +24,9 @@ have been decompressed into their original form, values given in raw counts (DN)
 Level 1
 -------
 These are the FITS data, merged with additonal header information and split into the 4 polarization states. The data uses FITS extensions. Values are in raw counts (DN). Header contains all information in telemetry plus any ancillary information necessary to interpret the data, for example full World Coordinte System (WCS) compliance.
+Data are separated into science images and calibration images (e.g., darks, stellar calibrations, etc.).
+The file nameing convention is: codex_l1_datetime _obs _{nd}_{bp}.extension
+where nd = nd, ca, bb, t3, cl  ; bp = t1, t2, s1, s2, cl;  obs = cor, drk
 
 Level 2
 -------
