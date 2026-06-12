@@ -6,7 +6,7 @@ CODEX data products are organized into data processing levels from Level 0 (raw 
 Note that L1 CODEX FITS data products contain the 4 polarization states separated by extensions
 
 Filter wheel Data Product Codes
-------------------
+------------------ 
 
 Filter Wheel 1
    ND = Neutral density, 5 = 1E-5
