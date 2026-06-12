@@ -3,7 +3,7 @@ Accessing CODEX Data
 
 Recommended Level 1 Products
 -----------------------------
-For most science use cases, the recommended starting point is the Level 1 science data products...
+For most science use cases, the recommended starting point is the Level 2 science data products...
 
 
 Downloading Data
@@ -16,9 +16,9 @@ If that example is not working properly, you can also pull data directly from th
 
 .. code-block:: bash
 
-    wget -r -l1 --no-parent --no-directories -A "codex_l1_20250521_*.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/05/21/
+    wget -r -l1 --no-parent --no-directories -A "codex_level__cl_t1_20251221.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/12/21/
 
-The above example would pull data for the L1 products on 2025-05-21.
+The above example would pull data for the L1 products on 2025-12-21.
 Change the path and date according to what product you wish to download.
 
 CODEX data are also accessible using the ??? tool,
@@ -27,8 +27,8 @@ where it can be quickly pulled.
 Reading Data
 ------------
 Standard CODEX data is stored as a standards-compliant FITS file, which bundles the primary data along with secondary data and metadata fully describing the observation.
-Each file is named with a convention that uniquely identifies the product - a sample being 'codex_l1_20250521_000001_5_4.fits' - where l1 defines the data level,
-20250521_000001 is a timestamp in the format yyyymmdd_hhmmss, and _5, _4 are the positions of the filter wheels.
+Each file is named with a convention that uniquely identifies the product - a sample being 'codex_level_cl_t1_20251221_000001.fits' - where l1 defines the data level,
+20251221_000001 is a timestamp in the format yyyymmdd_hhmmss, and _5, _4 are the positions of the filter wheels.
 
 For most end-users the primary data of interest are L1.
 
