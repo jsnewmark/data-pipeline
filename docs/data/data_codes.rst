@@ -8,11 +8,11 @@ Note that L1 CODEX FITS data products contain the 4 polarization states separate
 Filter wheel Data Product Codes
 ------------------------------- 
 
-Filter Wheel 1
-ND = Neutral density, 5 = 1E-5
-Ca = 393.65 +/- 0.2
-BB = 412.5 +/- 27.5 nm
-T3 = 430.0 +/- 5 nm
+Filter Wheel 1 \
+ND = Neutral density, 5 = 1E-5 \
+Ca = 393.65 +/- 0.2 \
+BB = 412.5 +/- 27.5 nm \
+T3 = 430.0 +/- 5 nm \
 CL = Clear 
 
 
