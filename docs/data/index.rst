@@ -20,3 +20,4 @@ For information on more data products, read this `data overview <data_overview.h
    data_codes
    metadata
    data_versions
+   data_anomalies
